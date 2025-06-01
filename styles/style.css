@@ -130,15 +130,24 @@ body, html {
   
   
   .typing {
-    font-size: 2rem;
+    font-size: 3vw; 
     font-family: monospace;
     color: #0059f2;
     white-space: nowrap;
-    border-right: 3px solid #0059f2;
+    border-right: 0.3em solid #0059f2;
     overflow: hidden;
     width: 0;
     animation: typing-erasing 5s steps(21) infinite;
     margin-top: 1rem;
+    max-width: 100%; 
+    box-sizing: border-box;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .typing {
+      font-size: 4vw;
+    }
   }
   
   @keyframes typing-erasing {
