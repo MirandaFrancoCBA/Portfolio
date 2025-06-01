@@ -254,6 +254,7 @@ body, html {
     color: #fff;
     padding: 0.5rem 1rem;
     border-radius: 8px;
+    border-color: black;
     text-decoration: none;
     font-weight: bold;
     transition: background 0.3s;
@@ -306,4 +307,21 @@ body, html {
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     filter: invert(1);
+  }
+
+  .btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-success {
+    background: linear-gradient(to right, #8e44ad, #3498db); 
+    color: white;
+    border-color: black;
+  }
+  
+  .btn:hover {
+    opacity: 0.85;
   }
