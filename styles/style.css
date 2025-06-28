@@ -346,7 +346,7 @@ body, html {
   }
 
   @media (max-width: 768px) {
-    /* Navbar: pasa a horizontal arriba */
+
     .navbar {
       position: static;
       width: 100%;
@@ -369,7 +369,7 @@ body, html {
       padding: 1rem;
     }
   
-    /* Imagen y texto de "Sobre mí" en columna */
+
     #sobre_mi > div {
       flex-direction: column;
       text-align: center;
@@ -380,7 +380,7 @@ body, html {
       margin: 0 auto;
     }
   
-    /* Botones de descarga de CV */
+
     #sobre_mi .d-flex {
       flex-direction: column;
       align-items: center;
@@ -397,7 +397,7 @@ body, html {
     }
   }
 
-  /* Estilos del botón hamburguesa */
+
 .menu-toggle {
   display: none;
   font-size: 2rem;
@@ -407,7 +407,7 @@ body, html {
   cursor: pointer;
 }
 
-/* Mostrar solo en móviles */
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: row;
@@ -454,16 +454,16 @@ body, html {
   background: #2291dc;
   color: white;
   text-align: center;
-  padding: 1rem 0.5rem;  /* Menos padding */
-  margin-top: 1rem;      /* Menos separación con el contenido de arriba */
+  padding: 1rem 0.5rem;  
+  margin-top: 1rem;      
 }
 
 .footer-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;           /* Menos espacio entre elementos */
-  font-size: 0.9rem;      /* Opcional: texto un poco más chico si querés */
+  gap: 0.5rem;           
+  font-size: 0.9rem;      
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
