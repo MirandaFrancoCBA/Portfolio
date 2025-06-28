@@ -31,10 +31,10 @@
           <div class="menu-content">
             <ul>
               <li><a href="#home">Home</a></li>
+              <li><a href="#sobre_mi">Sobre Mi</a></li>
               <li><a href="#proyectos">Proyectos</a></li>
               <li><a href="#habilidades">Habilidades</a></li>
               <li><a href="#certificados">Certificados</a></li>
-              <li><a href="#sobre_mi">Sobre Mi</a></li>
               <li><a href="#contacto">Contacto</a></li>
             </ul>
           </div>
@@ -86,7 +86,41 @@
           <h2 class="typing">| Software Developer |</h2>
         </div>
       </section>
+      <section id="sobre_mi" class="container my-5">
+        <h2 class="mb-4">Sobre mí</h2>
+      
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem;">
+          <!-- Imagen a la izquierda -->
+          <div style="flex: 1; min-width: 250px; text-align: center;">
+            <img src="assest/img/perfil5.jpeg" alt="Foto de Franco Rodrigo Miranda" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+          </div>
+      
+          <!-- Texto a la derecha -->
+          <div style="flex: 2; min-width: 280px;">
+            <p>
+              Soy <strong>Franco Rodrigo Miranda</strong>, estudiante avanzado de la Tecnicatura en Desarrollo de Software, con formación previa en Ingeniería en Sistemas y experiencia en diversas áreas como ventas, docencia y desarrollo de soluciones digitales.
+            </p>
+      
+            <p>
+              Actualmente enfoco mi carrera en el desarrollo de software y la industria IT, combinando conocimientos técnicos con creatividad, constancia y una gran vocación por el aprendizaje.
+            </p>
 
+        <p>Podés descargar mi CV en los siguientes idiomas:</p>
+        <div class="d-flex gap-3 mt-3">
+          <a
+            href="assest/docs/CV Español.pdf"
+            class="btn btn-success"
+            download
+            >📄 Descargar CV Español</a
+          >
+          <a
+            href="assest/docs/EnglishCV.pdf"
+            class="btn btn-success"
+            download
+            >📄 Download English CV</a
+          >
+        </div>
+      </section>
       <section id="proyectos">
         <h2>Proyectos</h2>
         <div class="contenedor-cards">
@@ -148,48 +182,45 @@
               >Ver en GitHub</a
             >
           </div>
+          <div class="card-proyecto">
+            <img src="assest/img/proyecto5.png" alt="bandmate" />
+            <h3>BandMate</h3>
+            <p>
+              BandMate es una aplicación móvil para Android diseñada específicamente para bandas musicales. Proporciona una plataforma colaborativa donde los miembros de la banda pueden organizar letras, acordes, setlists, y comunicarse de manera eficiente.
+            </p>
+            <a
+              href="https://github.com/MirandaFrancoCBA/BandMate"
+              target="_blank"
+              >Ver en GitHub</a
+            >
+          </div>
         </div>
       </section>
 
-      <section class="skills" id="skills">
-        <h2>Habilidades</h2>
+      <section class="skills" id="habilidades">
+        <h2>Habilidades Técnicas</h2>
         <div class="contenedor-skills">
-          <div class="skill-item">
-            <i class="fab fa-html5"></i>
-            <span>HTML5</span>
-          </div>
-          <div class="skill-item">
-            <i class="fab fa-css3-alt"></i>
-            <span>CSS3</span>
-          </div>
-          <div class="skill-item">
-            <i class="fab fa-js"></i>
-            <span>JavaScript</span>
-          </div>
-          <div class="skill-item">
-            <i class="fab fa-python"></i>
-            <span>Python</span>
-          </div>
-          <div class="skill-item">
-            <i class="devicon-fastapi-plain colored"></i>
-            <span>FastAPI</span>
-          </div>
-          <div class="skill-item">
-            <i class="devicon-mysql-plain colored"></i>
-            <span>MySQL</span>
-          </div>
-          <div class="skill-item">
-            <i class="devicon-sqlite-plain colored"></i>
-            <span>SQLite</span>
-          </div>
-          <div class="skill-item">
-            <i class="fab fa-git-alt"></i>
-            <span>Git</span>
-          </div>
-          <div class="skill-item">
-            <i class="fab fa-linux"></i>
-            <span>Linux</span>
-          </div>
+          <div class="skill-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
+          <div class="skill-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+          <div class="skill-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+          <div class="skill-item"><i class="fab fa-python"></i><span>Python</span></div>
+          <div class="skill-item"><i class="devicon-fastapi-plain colored"></i><span>FastAPI</span></div>
+          <div class="skill-item"><i class="devicon-mysql-plain colored"></i><span>MySQL</span></div>
+          <div class="skill-item"><i class="devicon-sqlite-plain colored"></i><span>SQLite</span></div>
+          <div class="skill-item"><i class="devicon-angularjs-plain colored"></i><span>Angular</span></div>
+          <div class="skill-item"><i class="devicon-kotlin-plain colored"></i><span>Kotlin</span></div>
+          <div class="skill-item"><i class="fas fa-terminal"></i><span>Bash Scripting</span></div>
+        </div>
+      
+        <h2>Herramientas y Marcos de Trabajo</h2>
+        <div class="contenedor-skills">
+          <div class="skill-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+          <div class="skill-item"><i class="fab fa-github"></i><span>GitHub</span></div>
+          <div class="skill-item"><i class="fas fa-columns"></i><span>Kanban</span></div>
+          <div class="skill-item"><i class="fas fa-code"></i><span>VS Code</span></div>
+          <div class="skill-item"><i class="fas fa-cloud-upload-alt"></i><span>Railway</span></div>
+          <div class="skill-item"><i class="fas fa-globe"></i><span>GitHub Pages</span></div>
+          <div class="skill-item"><i class="fab fa-linux"></i><span>Linux</span></div>
         </div>
       </section>
       <section id="certificados">
@@ -242,41 +273,7 @@
         </div>
       </section>
 
-      <section id="sobre_mi" class="container my-5">
-        <h2 class="mb-4">Sobre mí</h2>
       
-        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem;">
-          <!-- Imagen a la izquierda -->
-          <div style="flex: 1; min-width: 250px; text-align: center;">
-            <img src="assest/img/perfil5.jpeg" alt="Foto de Franco Rodrigo Miranda" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
-          </div>
-      
-          <!-- Texto a la derecha -->
-          <div style="flex: 2; min-width: 280px;">
-            <p>
-              Soy <strong>Franco Rodrigo Miranda</strong>, estudiante avanzado de la Tecnicatura en Desarrollo de Software, con formación previa en Ingeniería en Sistemas y experiencia en diversas áreas como ventas, docencia y desarrollo de soluciones digitales.
-            </p>
-      
-            <p>
-              Actualmente enfoco mi carrera en el desarrollo de software y la industria IT, combinando conocimientos técnicos con creatividad, constancia y una gran vocación por el aprendizaje.
-            </p>
-
-        <p>Podés descargar mi CV en los siguientes idiomas:</p>
-        <div class="d-flex gap-3 mt-3">
-          <a
-            href="assest/docs/CV Español.pdf"
-            class="btn btn-success"
-            download
-            >📄 Descargar CV Español</a
-          >
-          <a
-            href="assest/docs/EnglishCV.pdf"
-            class="btn btn-success"
-            download
-            >📄 Download English CV</a
-          >
-        </div>
-      </section>
 
       <section id="contacto" class="contacto">
         <h2>Contacto</h2>
