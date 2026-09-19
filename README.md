@@ -1,38 +1,48 @@
-# 🌐 Portfolio Web - Franco Rodrigo Miranda
+# Franco Rodrigo Miranda — Developer Portfolio
 
-Bienvenido/a a mi portfolio personal. Este sitio es una muestra de mis proyectos, habilidades y experiencia como desarrollador. 
+Personal portfolio focused on my backend profile and selected software projects.
 
----
+## Live site
 
-## 🚀 Descripción
+https://mirandafrancocba.github.io/Portfolio/
 
-Este es un portfolio responsive y moderno hecho en HTML, CSS y JavaScript puro. Incluye secciones como:
+## Positioning
 
-- 🧑‍💻 Sobre mí
-- 🛠️ Habilidades
-- 📂 Proyectos
-- 📞 Contacto
+**Backend Developer | Python & Django**
 
----
+The portfolio highlights production-minded backend work, REST APIs, SQL databases, Docker, CI/CD and real deployed systems.
 
-## 🛠️ Tecnologías utilizadas
+## Featured project
+
+### SmartStock
+
+Full-stack inventory management system with:
+
+- Django + Django REST Framework
+- PostgreSQL 16
+- JWT authentication
+- Admin / Staff / Viewer RBAC
+- Inventory IN / OUT movements
+- Analytics and low-stock alerts
+- Pytest + coverage
+- Docker / Docker Compose
+- GitHub Actions
+- Angular frontend
+- Render production deployment
+
+Live demo: https://smartstock-frontend-aozn.onrender.com
+
+Repository: https://github.com/MirandaFrancoCBA/SmartStock
+
+## Portfolio stack
 
 - HTML5
 - CSS3
 - JavaScript
-- Responsive Design (Media Queries)
+- GitHub Pages
 
----
+## Author
 
-## 🌍 Deploy Online
-
-Podés ver el portfolio online en:  
-👉 [https://mirandafrancocba.github.io/Portfolio/](https://mirandafrancocba.github.io/Portfolio/)  
-
-
----
-
-## 🖥️ Cómo clonar este repositorio
-
-```bash
-git clone https://github.com/MirandaFrancoCBA/Portfolio.git
+Franco Rodrigo Miranda  
+Backend Developer | Python & Django  
+Argentina
