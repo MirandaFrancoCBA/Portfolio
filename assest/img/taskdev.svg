@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">TaskDev</title><desc id="desc">Abstract collaborative task board placeholder</desc>
+<rect width="1200" height="675" rx="36" fill="#111827"/>
+<rect x="70" y="65" width="1060" height="545" rx="28" fill="#182235" stroke="#334155" stroke-width="3"/>
+<rect x="115" y="120" width="190" height="32" rx="16" fill="#86efac"/>
+<rect x="115" y="190" width="295" height="300" rx="24" fill="#202d43"/>
+<rect x="452" y="190" width="295" height="300" rx="24" fill="#202d43"/>
+<rect x="789" y="190" width="295" height="300" rx="24" fill="#202d43"/>
+<g fill="#334155"><rect x="145" y="235" width="235" height="62" rx="14"/><rect x="145" y="320" width="235" height="105" rx="14"/><rect x="482" y="235" width="235" height="90" rx="14"/><rect x="482" y="350" width="235" height="62" rx="14"/><rect x="819" y="235" width="235" height="120" rx="14"/><rect x="819" y="380" width="235" height="62" rx="14"/></g>
+<g fill="#86efac"><circle cx="165" cy="266" r="9"/><circle cx="502" cy="266" r="9"/><circle cx="839" cy="266" r="9"/></g>
+<path d="M405 340h40m-14-14 14 14-14 14M742 340h40m-14-14 14 14-14 14" stroke="#86efac" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="115" y="570" fill="#f8fafc" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="700">TaskDev</text>
+<text x="825" y="570" fill="#86efac" font-family="Arial,Helvetica,sans-serif" font-size="24">REAL-TIME TEAMWORK</text>
+</svg>
