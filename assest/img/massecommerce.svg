@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">MasseCommerce</title><desc id="desc">Abstract commerce dashboard placeholder</desc>
+<rect width="1200" height="675" rx="36" fill="#111827"/>
+<rect x="70" y="65" width="1060" height="545" rx="28" fill="#182235" stroke="#334155" stroke-width="3"/>
+<rect x="115" y="120" width="235" height="32" rx="16" fill="#86efac"/>
+<rect x="115" y="180" width="520" height="24" rx="12" fill="#475569"/>
+<rect x="115" y="225" width="420" height="18" rx="9" fill="#334155"/>
+<rect x="115" y="305" width="280" height="220" rx="24" fill="#202d43"/>
+<path d="M185 375h140l-18 92H205z" fill="none" stroke="#86efac" stroke-width="12" stroke-linejoin="round"/>
+<path d="M215 375l18-42h48l18 42" fill="none" stroke="#86efac" stroke-width="12" stroke-linecap="round"/>
+<circle cx="230" cy="490" r="12" fill="#86efac"/><circle cx="290" cy="490" r="12" fill="#86efac"/>
+<rect x="440" y="305" width="645" height="58" rx="18" fill="#26364f"/>
+<rect x="440" y="390" width="300" height="135" rx="20" fill="#202d43"/>
+<rect x="770" y="390" width="315" height="135" rx="20" fill="#202d43"/>
+<text x="115" y="585" fill="#f8fafc" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="700">MasseCommerce</text>
+<text x="825" y="585" fill="#86efac" font-family="Arial,Helvetica,sans-serif" font-size="24">FULL-STACK COMMERCE</text>
+</svg>
